@@ -1,0 +1,1 @@
+from .sinacor_negs import read_negs_txt
