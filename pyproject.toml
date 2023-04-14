@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sinacor-negs"
-version = "0.1.1"
+version = "0.1.2"
 description = "Leitor do arquivo NEGS.txt da B3 (Sinacor)"
 authors = ["renanmoretto <himynameisrenan@outlook.com>"]
 license = "MIT"
