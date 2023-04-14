@@ -6,6 +6,7 @@ authors = ["renanmoretto <himynameisrenan@outlook.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "sinacor_negs"}]
+repository = "https://github.com/renanmoretto/sinacor_negs"
 
 [tool.poetry.dependencies]
 python = "^3.11"
