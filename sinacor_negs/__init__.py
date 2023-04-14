@@ -1,1 +1,2 @@
-from .sinacor_negs import read_negs_txt
+from .negs import Negs
+from .reader import read_negs_txt

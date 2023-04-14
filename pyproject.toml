@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sinacor-negs"
+version = "0.1.1"
+description = "Leitor do arquivo NEGS.txt da B3 (Sinacor)"
+authors = ["renanmoretto <himynameisrenan@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sinacor_negs"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.0"
+numpy = "^1.24.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
